@@ -5,7 +5,7 @@ public class LazyInstantiation {
 	private static LazyInstantiation lazy;
 	
 	private LazyInstantiation() {
-
+		// private Constructor
 	}
 	
 	public static LazyInstantiation getLazyInstantiation() {
